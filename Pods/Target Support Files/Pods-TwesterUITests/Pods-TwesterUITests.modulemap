@@ -1,0 +1,6 @@
+framework module Pods_TwesterUITests {
+  umbrella header "Pods-TwesterUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

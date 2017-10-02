@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		038BF9A70D38E2B66A45FC75 /* Pods_TwesterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BE609A3BED966FAAC87287 /* Pods_TwesterUITests.framework */; };
+		1233C28B1F81B9A40029408B /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1233C28A1F81B9A40029408B /* ComposeViewController.swift */; };
+		1233C28D1F81CBF70029408B /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1233C28C1F81CBF70029408B /* TweetViewController.swift */; };
+		128343071F7D90CD00A84EC8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128343061F7D90CD00A84EC8 /* User.swift */; };
+		128343091F7D90D500A84EC8 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128343081F7D90D500A84EC8 /* Tweet.swift */; };
+		12A2D2571F7D9E130013D41B /* TwitterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A2D2561F7D9E130013D41B /* TwitterClient.swift */; };
+		12A2D2591F8045F00013D41B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A2D2581F8045F00013D41B /* HomeViewController.swift */; };
+		12A2D25B1F80BC250013D41B /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A2D25A1F80BC250013D41B /* TweetCell.swift */; };
+		12D29FBA1F7B58530079C453 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D29FB91F7B58530079C453 /* AppDelegate.swift */; };
+		12D29FBF1F7B58530079C453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12D29FBD1F7B58530079C453 /* Main.storyboard */; };
+		12D29FC11F7B58530079C453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12D29FC01F7B58530079C453 /* Assets.xcassets */; };
+		12D29FC41F7B58530079C453 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12D29FC21F7B58530079C453 /* LaunchScreen.storyboard */; };
+		12D29FCF1F7B58540079C453 /* TwesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D29FCE1F7B58540079C453 /* TwesterTests.swift */; };
+		12D29FDA1F7B58540079C453 /* TwesterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D29FD91F7B58540079C453 /* TwesterUITests.swift */; };
+		12D29FE81F7B5AA30079C453 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D29FE71F7B5AA30079C453 /* LoginViewController.swift */; };
+		60EA1A73103017F6BF014A56 /* Pods_TwesterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C08EE5D4C2DFC4796BA8747 /* Pods_TwesterTests.framework */; };
+		AE88495E7E713C6A6F7A8393 /* Pods_Twester.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6FEAE8D2AA6922EA84C94B /* Pods_Twester.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12D29FCB1F7B58540079C453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12D29FAE1F7B58530079C453 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12D29FB51F7B58530079C453;
+			remoteInfo = Twester;
+		};
+		12D29FD61F7B58540079C453 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12D29FAE1F7B58530079C453 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12D29FB51F7B58530079C453;
+			remoteInfo = Twester;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C563A6F2CD74BF4910B3E14 /* Pods-TwesterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwesterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwesterUITests/Pods-TwesterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1233C28A1F81B9A40029408B /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		1233C28C1F81CBF70029408B /* TweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewController.swift; sourceTree = "<group>"; };
+		128343061F7D90CD00A84EC8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		128343081F7D90D500A84EC8 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		12A2D2561F7D9E130013D41B /* TwitterClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterClient.swift; sourceTree = "<group>"; };
+		12A2D2581F8045F00013D41B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		12A2D25A1F80BC250013D41B /* TweetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
+		12D29FB61F7B58530079C453 /* Twester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twester.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D29FB91F7B58530079C453 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		12D29FBE1F7B58530079C453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12D29FC01F7B58530079C453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		12D29FC31F7B58530079C453 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		12D29FC51F7B58530079C453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12D29FCA1F7B58540079C453 /* TwesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D29FCE1F7B58540079C453 /* TwesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwesterTests.swift; sourceTree = "<group>"; };
+		12D29FD01F7B58540079C453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12D29FD51F7B58540079C453 /* TwesterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwesterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12D29FD91F7B58540079C453 /* TwesterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwesterUITests.swift; sourceTree = "<group>"; };
+		12D29FDB1F7B58540079C453 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12D29FE71F7B5AA30079C453 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1C5CBB9327C85069430C65D1 /* Pods-TwesterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwesterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwesterTests/Pods-TwesterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C50371D604391DA6AA9DE46 /* Pods-TwesterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwesterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwesterUITests/Pods-TwesterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A73C792434699525F491909 /* Pods-TwesterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwesterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwesterTests/Pods-TwesterTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C08EE5D4C2DFC4796BA8747 /* Pods_TwesterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwesterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6FEAE8D2AA6922EA84C94B /* Pods_Twester.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twester.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD43FC5857B59731FE1708C3 /* Pods-Twester.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twester.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Twester/Pods-Twester.debug.xcconfig"; sourceTree = "<group>"; };
+		E4C020A3D1A25973D2E1999D /* Pods-Twester.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twester.release.xcconfig"; path = "Pods/Target Support Files/Pods-Twester/Pods-Twester.release.xcconfig"; sourceTree = "<group>"; };
+		F8BE609A3BED966FAAC87287 /* Pods_TwesterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwesterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12D29FB31F7B58530079C453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE88495E7E713C6A6F7A8393 /* Pods_Twester.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D29FC71F7B58540079C453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EA1A73103017F6BF014A56 /* Pods_TwesterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D29FD21F7B58540079C453 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				038BF9A70D38E2B66A45FC75 /* Pods_TwesterUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		128343021F7D902800A84EC8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				128343061F7D90CD00A84EC8 /* User.swift */,
+				128343081F7D90D500A84EC8 /* Tweet.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		128343031F7D902D00A84EC8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				12A2D25A1F80BC250013D41B /* TweetCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		128343041F7D903400A84EC8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				12D29FE71F7B5AA30079C453 /* LoginViewController.swift */,
+				12A2D2581F8045F00013D41B /* HomeViewController.swift */,
+				1233C28A1F81B9A40029408B /* ComposeViewController.swift */,
+				1233C28C1F81CBF70029408B /* TweetViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		128343051F7D903A00A84EC8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				12A2D2561F7D9E130013D41B /* TwitterClient.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		12D29FAD1F7B58530079C453 = {
+			isa = PBXGroup;
+			children = (
+				12D29FB81F7B58530079C453 /* Twester */,
+				12D29FCD1F7B58540079C453 /* TwesterTests */,
+				12D29FD81F7B58540079C453 /* TwesterUITests */,
+				12D29FB71F7B58530079C453 /* Products */,
+				B3DEAEBB199A8974F8E8231D /* Pods */,
+				9014464FDAB10CA7E8DC738B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		12D29FB71F7B58530079C453 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12D29FB61F7B58530079C453 /* Twester.app */,
+				12D29FCA1F7B58540079C453 /* TwesterTests.xctest */,
+				12D29FD51F7B58540079C453 /* TwesterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12D29FB81F7B58530079C453 /* Twester */ = {
+			isa = PBXGroup;
+			children = (
+				128343051F7D903A00A84EC8 /* API */,
+				128343041F7D903400A84EC8 /* ViewControllers */,
+				128343031F7D902D00A84EC8 /* Views */,
+				128343021F7D902800A84EC8 /* Models */,
+				12D29FB91F7B58530079C453 /* AppDelegate.swift */,
+				12D29FBD1F7B58530079C453 /* Main.storyboard */,
+				12D29FC01F7B58530079C453 /* Assets.xcassets */,
+				12D29FC21F7B58530079C453 /* LaunchScreen.storyboard */,
+				12D29FC51F7B58530079C453 /* Info.plist */,
+			);
+			path = Twester;
+			sourceTree = "<group>";
+		};
+		12D29FCD1F7B58540079C453 /* TwesterTests */ = {
+			isa = PBXGroup;
+			children = (
+				12D29FCE1F7B58540079C453 /* TwesterTests.swift */,
+				12D29FD01F7B58540079C453 /* Info.plist */,
+			);
+			path = TwesterTests;
+			sourceTree = "<group>";
+		};
+		12D29FD81F7B58540079C453 /* TwesterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				12D29FD91F7B58540079C453 /* TwesterUITests.swift */,
+				12D29FDB1F7B58540079C453 /* Info.plist */,
+			);
+			path = TwesterUITests;
+			sourceTree = "<group>";
+		};
+		9014464FDAB10CA7E8DC738B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B6FEAE8D2AA6922EA84C94B /* Pods_Twester.framework */,
+				6C08EE5D4C2DFC4796BA8747 /* Pods_TwesterTests.framework */,
+				F8BE609A3BED966FAAC87287 /* Pods_TwesterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3DEAEBB199A8974F8E8231D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD43FC5857B59731FE1708C3 /* Pods-Twester.debug.xcconfig */,
+				E4C020A3D1A25973D2E1999D /* Pods-Twester.release.xcconfig */,
+				1C5CBB9327C85069430C65D1 /* Pods-TwesterTests.debug.xcconfig */,
+				5A73C792434699525F491909 /* Pods-TwesterTests.release.xcconfig */,
+				4C50371D604391DA6AA9DE46 /* Pods-TwesterUITests.debug.xcconfig */,
+				0C563A6F2CD74BF4910B3E14 /* Pods-TwesterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12D29FB51F7B58530079C453 /* Twester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12D29FDE1F7B58540079C453 /* Build configuration list for PBXNativeTarget "Twester" */;
+			buildPhases = (
+				AE003CB474E8AF3F4B0EB5A1 /* [CP] Check Pods Manifest.lock */,
+				12D29FB21F7B58530079C453 /* Sources */,
+				12D29FB31F7B58530079C453 /* Frameworks */,
+				12D29FB41F7B58530079C453 /* Resources */,
+				4E88EF02C1031392EDE7CB14 /* [CP] Embed Pods Frameworks */,
+				C83B094C2AAD7E0B4653289E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Twester;
+			productName = Twester;
+			productReference = 12D29FB61F7B58530079C453 /* Twester.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12D29FC91F7B58540079C453 /* TwesterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12D29FE11F7B58540079C453 /* Build configuration list for PBXNativeTarget "TwesterTests" */;
+			buildPhases = (
+				2BAC23369510658C868DB87D /* [CP] Check Pods Manifest.lock */,
+				12D29FC61F7B58540079C453 /* Sources */,
+				12D29FC71F7B58540079C453 /* Frameworks */,
+				12D29FC81F7B58540079C453 /* Resources */,
+				81D69A0557E7894E6F531505 /* [CP] Embed Pods Frameworks */,
+				104D5103D9F67EB50AC19BA1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12D29FCC1F7B58540079C453 /* PBXTargetDependency */,
+			);
+			name = TwesterTests;
+			productName = TwesterTests;
+			productReference = 12D29FCA1F7B58540079C453 /* TwesterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		12D29FD41F7B58540079C453 /* TwesterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12D29FE41F7B58540079C453 /* Build configuration list for PBXNativeTarget "TwesterUITests" */;
+			buildPhases = (
+				C2ABE42208127C302BE510A3 /* [CP] Check Pods Manifest.lock */,
+				12D29FD11F7B58540079C453 /* Sources */,
+				12D29FD21F7B58540079C453 /* Frameworks */,
+				12D29FD31F7B58540079C453 /* Resources */,
+				D2B1AB1C1B2A07A642EC54AF /* [CP] Embed Pods Frameworks */,
+				ED7DC970F3CD5CA45FCB0073 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12D29FD71F7B58540079C453 /* PBXTargetDependency */,
+			);
+			name = TwesterUITests;
+			productName = TwesterUITests;
+			productReference = 12D29FD51F7B58540079C453 /* TwesterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12D29FAE1F7B58530079C453 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Nader Neyzi";
+				TargetAttributes = {
+					12D29FB51F7B58530079C453 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					12D29FC91F7B58540079C453 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 12D29FB51F7B58530079C453;
+					};
+					12D29FD41F7B58540079C453 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 12D29FB51F7B58530079C453;
+					};
+				};
+			};
+			buildConfigurationList = 12D29FB11F7B58530079C453 /* Build configuration list for PBXProject "Twester" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 12D29FAD1F7B58530079C453;
+			productRefGroup = 12D29FB71F7B58530079C453 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12D29FB51F7B58530079C453 /* Twester */,
+				12D29FC91F7B58540079C453 /* TwesterTests */,
+				12D29FD41F7B58540079C453 /* TwesterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12D29FB41F7B58530079C453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D29FC41F7B58530079C453 /* LaunchScreen.storyboard in Resources */,
+				12D29FC11F7B58530079C453 /* Assets.xcassets in Resources */,
+				12D29FBF1F7B58530079C453 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D29FC81F7B58540079C453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D29FD31F7B58540079C453 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		104D5103D9F67EB50AC19BA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwesterTests/Pods-TwesterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BAC23369510658C868DB87D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwesterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E88EF02C1031392EDE7CB14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Twester/Pods-Twester-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/BDBOAuth1Manager/BDBOAuth1Manager.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BDBOAuth1Manager.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Twester/Pods-Twester-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81D69A0557E7894E6F531505 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwesterTests/Pods-TwesterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE003CB474E8AF3F4B0EB5A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Twester-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2ABE42208127C302BE510A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TwesterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C83B094C2AAD7E0B4653289E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Twester/Pods-Twester-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2B1AB1C1B2A07A642EC54AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwesterUITests/Pods-TwesterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED7DC970F3CD5CA45FCB0073 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwesterUITests/Pods-TwesterUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12D29FB21F7B58530079C453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128343071F7D90CD00A84EC8 /* User.swift in Sources */,
+				12A2D25B1F80BC250013D41B /* TweetCell.swift in Sources */,
+				1233C28D1F81CBF70029408B /* TweetViewController.swift in Sources */,
+				128343091F7D90D500A84EC8 /* Tweet.swift in Sources */,
+				1233C28B1F81B9A40029408B /* ComposeViewController.swift in Sources */,
+				12D29FE81F7B5AA30079C453 /* LoginViewController.swift in Sources */,
+				12A2D2591F8045F00013D41B /* HomeViewController.swift in Sources */,
+				12A2D2571F7D9E130013D41B /* TwitterClient.swift in Sources */,
+				12D29FBA1F7B58530079C453 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D29FC61F7B58540079C453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D29FCF1F7B58540079C453 /* TwesterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12D29FD11F7B58540079C453 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12D29FDA1F7B58540079C453 /* TwesterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12D29FCC1F7B58540079C453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12D29FB51F7B58530079C453 /* Twester */;
+			targetProxy = 12D29FCB1F7B58540079C453 /* PBXContainerItemProxy */;
+		};
+		12D29FD71F7B58540079C453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12D29FB51F7B58530079C453 /* Twester */;
+			targetProxy = 12D29FD61F7B58540079C453 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12D29FBD1F7B58530079C453 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12D29FBE1F7B58530079C453 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		12D29FC21F7B58530079C453 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12D29FC31F7B58530079C453 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12D29FDC1F7B58540079C453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		12D29FDD1F7B58540079C453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12D29FDF1F7B58540079C453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD43FC5857B59731FE1708C3 /* Pods-Twester.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Twester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ANN.Twester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		12D29FE01F7B58540079C453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4C020A3D1A25973D2E1999D /* Pods-Twester.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Twester/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ANN.Twester;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		12D29FE21F7B58540079C453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C5CBB9327C85069430C65D1 /* Pods-TwesterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TwesterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ANN.TwesterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twester.app/Twester";
+			};
+			name = Debug;
+		};
+		12D29FE31F7B58540079C453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A73C792434699525F491909 /* Pods-TwesterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TwesterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ANN.TwesterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twester.app/Twester";
+			};
+			name = Release;
+		};
+		12D29FE51F7B58540079C453 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C50371D604391DA6AA9DE46 /* Pods-TwesterUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TwesterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ANN.TwesterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Twester;
+			};
+			name = Debug;
+		};
+		12D29FE61F7B58540079C453 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C563A6F2CD74BF4910B3E14 /* Pods-TwesterUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TwesterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ANN.TwesterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Twester;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12D29FB11F7B58530079C453 /* Build configuration list for PBXProject "Twester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12D29FDC1F7B58540079C453 /* Debug */,
+				12D29FDD1F7B58540079C453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12D29FDE1F7B58540079C453 /* Build configuration list for PBXNativeTarget "Twester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12D29FDF1F7B58540079C453 /* Debug */,
+				12D29FE01F7B58540079C453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12D29FE11F7B58540079C453 /* Build configuration list for PBXNativeTarget "TwesterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12D29FE21F7B58540079C453 /* Debug */,
+				12D29FE31F7B58540079C453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12D29FE41F7B58540079C453 /* Build configuration list for PBXNativeTarget "TwesterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12D29FE51F7B58540079C453 /* Debug */,
+				12D29FE61F7B58540079C453 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12D29FAE1F7B58530079C453 /* Project object */;
+}
