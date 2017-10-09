@@ -19,21 +19,10 @@ class LoginViewController: UIViewController {
 
     @IBAction func onLoginButton(_ sender: Any) {
         TwitterClient.sharedInstance.login(success: {
-            self.performSegue(withIdentifier: "loginSegue", sender: nil)
+            self.performSegue(withIdentifier: "LoginSegue", sender: nil)
         }) { (error: Error) in
             print(error.localizedDescription)
         }
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
 }

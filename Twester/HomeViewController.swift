@@ -58,6 +58,8 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         let cell = tableView.dequeueReusableCell(withIdentifier: "TweetCell", for: indexPath) as! TweetCell
 
         cell.tweet = tweets[indexPath.row]
+        cell.profileImageView.tag = indexPath.row
+
         return cell
     }
 
@@ -70,6 +72,16 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
             let indexPath = tableView.indexPath(for: sender as! TweetCell)
 
             tweetVc.tweet = tweets[(indexPath?.row)!]
+        } else if segue.identifier == "ProfileSegue" {
+            let tapGestureRecognizer = sender as! UITapGestureRecognizer
+            let profileImageView = tapGestureRecognizer.view as! UIImageView
+            let tweet = tweets[profileImageView.tag]
+
+            let profileVc = segue.destination as! ProfileViewController
+
+            profileVc.user = tweet.user
         }
     }
+
+
 }
